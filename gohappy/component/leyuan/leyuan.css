@@ -1,0 +1,60 @@
+.nav{
+	height: 0.5rem;
+	width: 100%;
+	display: flex;
+	background-color: white;
+	position: relative;
+	z-index: 3;
+}
+.nav a{
+	font-size: 0.15rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.48rem;
+	flex:auto;
+	border-bottom: 2px solid transparent;
+}
+.nav .border_bottom{
+	border-bottom:  2px solid #eb6967;
+}
+.leyuan{
+	width: 100%;
+	height: 100%;
+}
+.leyuan .list_box{
+	width: 100%;
+	height: calc(100%  - 0.5rem);
+	overflow-y: scroll;
+}
+.leyuan .list_box li{
+	height: 1.265rem;
+	width: 100%;
+	border-bottom: 1px solid #eff0eb;
+}
+.leyuan .list_box li img{
+	width: 100%;
+	height: 100%;
+}
+.leyuan .panel{
+	z-index: 3;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	flex-wrap: wrap;
+	font-size: 0.15rem;
+	justify-content: flex-start;
+}
+.leyuan .panel section{
+	width: 1.0666666666rem;
+	height: 0.44rem;
+	line-height: 0.43rem;
+	text-align: center;
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.leyuan .panel .bottom_line{
+	border-bottom: 1px solid #ddd;
+}
+.leyuan .panel section:last-child{
+	border-top: none;
+}
