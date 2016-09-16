@@ -52,7 +52,7 @@ define([], function(){
 
 	function setData(arr){
 		for(var i = 0;i < arr.length;i++){
-			$('.leyuan .list_box').append($("<li><img src='" + arr[i].img + "'></li>")); 
+			$('.leyuan .list_box').append($("<li><img src='" + arr[i].img + "'><h2>" + arr[i].name + "</h2><p>" + arr[i].address + "</p><span class='leyuanfont'>&#xe604;</span></li>")); 
 
 		}
 	}

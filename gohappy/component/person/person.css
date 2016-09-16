@@ -1,0 +1,47 @@
+.person{
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+}
+.person .headpic{
+	width: 100%;
+	height: 1.5rem;
+	overflow: hidden;
+	position: relative;
+}
+.person .headpic .bgpic{
+	width: 100%;
+	filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); 
+}
+.person .headpic .smallpic{
+	position: absolute;
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	top: 0.2rem;
+	left: 1.2rem;
+}
+.person .headpic .cover{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(202,210,204,0.9);
+}
+.person .listbox{
+	font-size: 0.15rem;
+	height: 2.78rem;
+	background-color: #fff;
+	margin-top: 0.15rem;
+	padding: 0 0.16rem;
+}
+.person .listbox .list li{
+	line-height: 0.46rem;
+	border-bottom: 1px solid #dfdfdf;
+}
+.person .listbox .list li span{
+	font-size: 0.30rem;
+	font-weight: 400;
+	float: right;
+}

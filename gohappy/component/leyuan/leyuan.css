@@ -1,3 +1,17 @@
+@font-face
+{
+    font-family: 'iconfont';
+
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+.leyuanfont{
+	font-family: 'iconfont';
+}
 .nav{
 	height: 0.5rem;
 	width: 100%;
@@ -27,13 +41,32 @@
 	overflow-y: scroll;
 }
 .leyuan .list_box li{
+	color: #fff;
 	height: 1.265rem;
 	width: 100%;
 	border-bottom: 1px solid #eff0eb;
+	position: relative;
 }
 .leyuan .list_box li img{
 	width: 100%;
 	height: 100%;
+}
+.leyuan .list_box li h2{
+	font-size: 0.16rem;
+	position: absolute;
+	top: 0.59rem;
+	left: 0.16rem;
+}
+.leyuan .list_box li p{
+	font-size: 0.14rem;
+	position: absolute;
+	top: 0.95rem;
+	left: 0.16rem;
+}
+.leyuan .list_box li span{
+	position: absolute;
+	font-size: 0.16rem;
+	top: 0px;
 }
 .leyuan .panel{
 	z-index: 3;

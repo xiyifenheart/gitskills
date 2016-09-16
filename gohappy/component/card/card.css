@@ -1,0 +1,27 @@
+.card{
+	background-color: #eee;
+	width: 100%;
+	height: 100%;
+	padding: 0.1rem 0 0 0;
+}
+.card .sharecard{
+	height: 1.4rem;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	background-color: #fff;
+	text-align: center;
+	font-size: 0.38rem;
+	font-weight:900;
+	color: #888;
+	padding-top: 0.44rem;
+}
+.card .sharecard p{
+	font-size: 0.15rem;
+}
+.card .nocard{
+	height: 2.1rem;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	background-color: #fff;
+	margin-top: 0.1rem;
+}

@@ -22,7 +22,9 @@
     font-size: 0.24rem;
     font-style: normal;
 }
-
+ul,li,ol{
+    list-style: none;
+}
 a
 {
     text-decoration: none;
